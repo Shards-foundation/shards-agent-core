@@ -34,7 +34,7 @@ class TestShardsAgents(unittest.TestCase):
         agent = KernelAgent()
         result = self.loop.run_until_complete(agent.run("Test task"))
         self.assertEqual(result.status, "success")
-        self.assertIn("KernelAgent processed: Test task", result.output)
+        self.assertIn("KernelAgent successfully processed task: Test task", result.output)
 
 if __name__ == "__main__":
     unittest.main()
