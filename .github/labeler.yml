@@ -1,0 +1,13 @@
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.md"
+enhancement:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "agents/**"
+          - "core/**"
+          - "scripts/**"
+          - "tools/**"
+          - "workflows/**"
+          - "main.py"
