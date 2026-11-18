@@ -108,7 +108,7 @@ Orchestration is handled by the `WorkflowOrchestrator`, which manages a `Workflo
 ### Local Setup
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Shards-inc/shards-agent-core.git
+   git clone https://github.com/Shards-foundation/shards-agent-core.git
    cd shards-agent-core
    ```
 
